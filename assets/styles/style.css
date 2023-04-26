@@ -1,0 +1,34 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+
+@import url(components/backpack.css);
+@import url(components/form.css);
+
+
+html {
+    background: radial-gradient(farthest-corner at right top,#21A09D, #06182D);
+    height: 100%;
+    font-family: 'Roboto', cursive;
+}
+
+figure {
+    margin: 0;
+}
+
+.main {
+    align-items: flex-start;
+    display: flex;
+    gap: 2em;
+    padding: 10vh 3em 0;
+}
+
+.container {
+    background: #C5965F;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 1;
+    gap: 2em;
+    padding: 4em 2em 2em;
+    min-width: 600px;
+}
